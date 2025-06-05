@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary meta tags -->
+  <title>Asnipa - I'm User Interface Designer & Developer.</title>
+  <meta name="title" content="Asnipa - Hello, It's me Asnipa Pundugar web Designer & Developer.">
+
+  <!-- Google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+          <li>
+            <a href="blog.html" class="navbar-link">Blog</a>
+          </li>
+        </ul>
+
+        <ul class="social-list">
+          <li>
+            <a href="https://x.com/asnicucu?s=21" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/share/1ALcxMMs4z/?mibextid=wwXIfr" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/yoo_min_lee?igsh=d251dnJmbGh4cTB3" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://youtube.com/@asnipapundugar5845?si=lizI5fXcfcbbtG72" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- Hero Section -->
+      <section class="section asni" id="home" aria-label="home">
+        <div class="container">
+          <figure class="asni-banner">
+            <img src="./assets/images/asnipaprofile.png" width="560" height="540" alt="Asni" class="w-100" data-reveal="top">
+          </figure>
+
+          <div class="asni-content">
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              Hi! I'm Asnipa Pundugar I'm a web Designer & Photographer.
+            </h1>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="./assets/images/AsnipaCv.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View My CV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <div class="wrapper">
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+              <p class="section-text">
+                Hi, I'm Asni, a 19-year-old aspiring developer with a passion for creating innovative and user-friendly web applications. 
+                I enjoy learning new technologies and continuously improving my skills in web development, design, and problem-solving. 
+                When I'm not coding, I love exploring creative hobbies like photography and writing, which inspire my work. 
+                My goal is to build impactful projects that make a difference in people's lives.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+              <li class="progress-item">
+                <div class="progress-circle" data-progress="75">
+                  <span class="progress-value">75%</span>
+                </div>
+                <p>C#</p>
+              </li>
+              <li class="progress-item">
+                <div class="progress-circle" data-progress="70">
+                  <span class="progress-value">70%</span>
+                </div>
+                <p>Java</p>
+              </li>
+              <li class="progress-item">
+                <div class="progress-circle" data-progress="80">
+                  <span class="progress-value">80%</span>
+                </div>
+                <p>HTML</p>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="grid-list">
+            <li data-reveal="bottom">
+              <div class="about-card">
+                <div class="card-icon">
+                  <img src="./assets/images/csharp.jpg" width="52" height="52" loading="lazy" alt="C# icon">
+                </div>
+                <h3 class="h4 card-title">C#</h3>
+                <p class="card-text">
+                  I use C# to build efficient, scalable, and maintainable software solutions, including desktop applications, web services, and game development.
+                </p>
+              </div>
+            </li>
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+                <div class="card-icon">
+                  <img src="./assets/images/pngtree-java-programming-icon-png-image_6044136.jpg" width="52" height="52" loading="lazy" alt="Java icon">
+                </div>
+                <h3 class="h4 card-title">Java</h3>
+                <p class="card-text">
+                  I develop robust and platform-independent applications using Java, focusing on backend systems, Android apps, and enterprise solutions.
+                </p>
+              </div>
+            </li>
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+                <div class="card-icon">
+                  <img src="./assets/images/logo-html-5-1536.png" width="52" height="52" loading="lazy" alt="HTML icon">
+                </div>
+                <h3 class="h4 card-title">HTML</h3>
+                <p class="card-text">
+                  I create semantic, accessible, and SEO-friendly web pages using HTML, ensuring a strong foundation for modern web development.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+          <div class="contact-card">
+            <div class="contact-content" data-reveal="left">
+              <div class="card-icon">
+                <img src="./assets/images/envelope.jpg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+              <p class="section-text">
+                I bring rapid solutions to make the life easier. Have any questions? Reach out to me from this contact form.
+              </p>
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+              <button type="submit" class="btn btn-secondary">Send message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright">
+        © 2025 Asnipa. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+        <li>
+          <a href="https://x.com/asnicucu?s=21" class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/share/1ALcxMMs4z/?mibextid=wwXIfr" class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/yoo_min_lee?igsh=d251dnJmbGh4cTB3" class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com/@asnipapundugar5845?si=lizI5fXcfcbbtG72" class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
